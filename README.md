@@ -49,16 +49,16 @@ python app/app.py
 
 The application will be running at `http://localhost:5555`.
 
+## Screenshot
+
+![App Screenshot](sample.png)
+
 ## Running with Docker Compose
 
 With Docker and Docker Compose installed, you can run the application with a single command. Make sure you have your `.env` file with the `GEMINI_API_KEY` in the root of the project.
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
-The application will be running at `http://localhost:5555`. To stop the application, press `Ctrl+C` in the terminal where `docker-compose` is running, and then run:
 
-```bash
-docker-compose down
-```
