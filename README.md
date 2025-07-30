@@ -27,32 +27,13 @@ This is a simple web application that converts natural language questions into S
 
 ## Setup and Running
 
-### Prerequisites
-
-*   Python 3.7+
-*   Pip
-
-### 1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd nl2sql_app
-```
-
-### 2. Create and activate a virtual environment (optional but recommended)
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Set up environment variables
+### Set up environment variables
 
 Create a `.env` file in the root of the project and add your Gemini API key:
 
@@ -60,7 +41,7 @@ Create a `.env` file in the root of the project and add your Gemini API key:
 GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 ```
 
-### 5. Run the application
+### Run the application
 
 ```bash
 python app/app.py
@@ -80,3 +61,4 @@ The application will be running at `http://localhost:5555`. To stop the applicat
 
 ```bash
 docker-compose down
+```
